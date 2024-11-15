@@ -43,7 +43,7 @@ thal = st.selectbox("Thalius test result", ["0", "1","2","3"])
 
 # Prepare input data for the model
 input_data = np.array([[
-    age, gender,cp, trestbps ,chol, fbs, restecg, thalach, exang, oldpeak, slope, ca, that
+    age, gender,cp, trestbps ,chol, fbs, restecg, thalach, exang, oldpeak, slope, ca, thal
 ]])
 
 # Make prediction
