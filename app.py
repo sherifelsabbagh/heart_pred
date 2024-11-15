@@ -7,7 +7,7 @@ with open("rf_model.pkl", 'rb') as file:
     model = pickle.load(file)
 
 # Define the app layout
-st.title(“Heart Disease Prediction App")
+st.title("Heart Disease Prediction App")
 
 st.write("""
 This app predicts the likelihood of a heart disease based on various input features.
