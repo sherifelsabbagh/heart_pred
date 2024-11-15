@@ -9,6 +9,8 @@ with open("rf_model.pkl", 'rb') as file:
 # Define the app layout
 st.title("Heart Disease Prediction App")
 
+st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hri.org.nz%2Fhealth%2Flearn%2Fcardiovascular-disease%2Fcardiovascular-disease-impacts-and-risks&psig=AOvVaw2a7x9G2vXpZcAwzCsijLaG&ust=1731758021574000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjQs8Cj3okDFQAAAAAdAAAAABAE")
+
 st.write("""
 This app predicts the likelihood of a heart disease based on various input features.
 """)
