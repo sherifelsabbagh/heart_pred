@@ -19,27 +19,27 @@ age = st.number_input("Age", min_value=0, max_value=120)
 gender = st.selectbox("Gender", ["0", "1"])
 st.write("Male= 1, Female=0")
 
-cp = st.selectbox("Chest Pain type", ["0", "1","2","3"])
+cp = st.selectbox("Chest Pain type", ["0", "1","2","	3"])
 
-trestbps = st.number_input("Resting Blood Pressure”, min_value=0, max_value=500)
+trestbps = st.number_input("Resting Blood Pressure", min_value=0, max_value=500)
 
-chol= st.number_input("Serum Cholesterol in mg/dL ”, min_value=0, max_value=500)
+chol= st.number_input("Serum Cholesterol in mg/dL ", min_value=0, max_value=500)
 
-fbs= st.selectbox("Fasting blood glucose > 120 mg/dL", ["1”, "0”])
+fbs= st.selectbox("Fasting blood glucose > 120 mg/dL", ["1", "0"])
 
-restecg= st.selectbox("resting electrocardiographic results", ["0”, "1”,”2”])
+restecg= st.selectbox("resting electrocardiographic results", ["0", "1","2"])
 
-thalach= st.number_input("Maximum heart rate by stress test”, min_value=0, max_value=500)
+thalach= st.number_input("Maximum heart rate by stress test", min_value=0, max_value=500)
 
-exang= st.selectbox("Exercise induced angina”, ["0”, "1”])
+exang= st.selectbox("Exercise induced angina", ["0", "1"])
 
-oldpeak= st.number_input("ST depression”, min_value=0, max_value=500)
+oldpeak= st.number_input("ST depression", min_value=0, max_value=500)
 
-slope = st.selectbox("the slope of the peak exercise ST segment", ["0”, "1”,”2”])
+slope = st.selectbox("the slope of the peak exercise ST segment", ["0", "1","2"])
 
-ca= st.number_input("number of major vessels”, min_value=0, max_value=3)
+ca= st.number_input("number of major vessels", min_value=0, max_value=3)
 
-thal = st.selectbox("Thalius test result”, ["0”, "1”,”2”,”3”])
+thal = st.selectbox("Thalius test result", ["0", "1","2","3"])
 
 # Prepare input data for the model
 input_data = np.array([[
